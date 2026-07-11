@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ПРОРЫВ - Быстрая печать и фото</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container header__container">
+        <div class="logo"><span class="logo__icon">★</span> Прорыв</div>
+
+        <nav class="nav">
+          <a href="#services" class="nav__link">Услуги</a>
+          <a href="#cards" class="nav__link">Карточки</a>
+          <a href="#contacts" class="nav__link">Контакты</a>
+          <!-- ДОБАВЛЯЕМ КНОПКУ СЮДА (для мобильного меню): -->
+          <a href="tel:+79516872007" class="btn btn--outline nav__phone-mob"
+            >Позвонить</a
+          >
+        </nav>
+
+        <button class="burger-menu" aria-label="Открыть меню">
+          <span></span>
+        </button>
+
+        <!-- ЭТА КНОПКА ОСТАЕТСЯ ТУТ (для ПК версии): -->
+        <a
+          href="tel:+79516872007"
+          class="btn btn--outline header__phone-desktop"
+          >Позвонить</a
+        >
+      </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero fade-in-element">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Быстрая печать и фото на документы
+            <span class="text-gold">от 5 минут</span>
+          </h1>
+          <p class="hero__subtitle">
+            Распечатаем документы, сделаем фото на паспорт и изготовим карты для
+            тахографа онлайн.
+          </p>
+          <a
+            href="https://vk.com/im?sel=-1517797"
+            class="btn btn--primary"
+            target="_blank"
+            >Написать сообщение</a
+          >
+        </div>
+        <div class="hero__image">
+          <!-- Замените на реальное изображение фотографа -->
+          <img src="hero.jpg" alt="Фотограф" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок услуг -->
+    <section
+      id="services"
+      class="section-block services-section fade-in-element"
+    >
+      <div class="section-header">
+        <h2 class="section-title">Наши услуги</h2>
+        <div class="slider-controls">
+          <button class="slider-btn prev-btn" aria-label="Назад">←</button>
+          <button class="slider-btn next-btn" aria-label="Вперед">→</button>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider-track">
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image1.jpg" alt="Фото на документы" />
+            </div>
+            <h3 class="service-card__title">Фото на документы</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image2.jpg" alt="Печать фотографий" />
+            </div>
+            <h3 class="service-card__title">Печать фотографий</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image3.jpg" alt="Копицентр и печать" />
+            </div>
+            <h3 class="service-card__title">Копицентр и печать</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image4.jpg" alt="Фото на холсте" />
+            </div>
+            <h3 class="service-card__title">Фото на холсте</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image5.jpg" alt="Фото на футболке" />
+            </div>
+            <h3 class="service-card__title">Фото на футболке</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image6.jpg" alt="Кружки" />
+            </div>
+            <h3 class="service-card__title">Кружки</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image7.jpg" alt="Визитки, карточки" />
+            </div>
+            <h3 class="service-card__title">Визитки, карточки</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image8.jpg" alt="Печати и штампы" />
+            </div>
+            <h3 class="service-card__title">Печати и штампы</h3>
+          </div>
+          <div class="service-card">
+            <div class="service-card__img-wrap">
+              <img src="image9.jpg" alt="Фото на эмали" />
+            </div>
+            <h3 class="service-card__title">Фото на эмали</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок водительских карточек -->
+    <section id="cards" class="cards-section fade-in-element">
+      <div class="container">
+        <h2 class="section-title">Карточки водителя</h2>
+
+        <div class="card-row">
+          <div class="card-row__img">
+            <div class="driver-card-mock">
+              <img
+                src="driver-card-estr.jpg"
+                alt="Карта водителя ЕСТР"
+                class="driver-card__img"
+              />
+            </div>
+          </div>
+          <div class="card-row__info">
+            <h3>Карта водителя ЕСТР</h3>
+            <p>
+              Используется на Европейских тахографах. Чаще всего установлены
+              штатно на иномарках (MAN, Iveco, DAF и т.д.). Без пин-кода. С этой
+              картой тахографа можно ездить в РФ и за рубежом. ​​​​​​​​​​​​​​
+            </p>
+          </div>
+        </div>
+
+        <div class="card-row card-row--reverse">
+          <div class="card-row__img">
+            <div class="driver-card-mock driver-card-mock--skzi">
+              <img
+                src="driver-card-skzi.jpg"
+                alt="Карта водителя СКЗИ"
+                class="driver-card__img"
+              />
+            </div>
+          </div>
+          <div class="card-row__info">
+            <h3>Карта водителя СКЗИ</h3>
+            <p>
+              Используется только на российских тахографах. Самая популярная
+              карта в РФ. С пин-кодом. Можно ездить только по России. За рубежом
+              он недействителен.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts fade-in-element">
+      <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        <div class="contacts__grid">
+          <div class="contacts__info">
+            <div class="info-block">
+              <h4>Адрес</h4>
+              <p>Тихвин, 3 микрорайон, дом 1 (справа от второго подъезда)</p>
+            </div>
+            <div class="info-block">
+              <h4>Режим работы</h4>
+              <p>Пн–Пт: 09:00 – 19:00 Сб: 10:00 – 18:00</p>
+              <p>Сб: 10:00 – 18:00</p>
+              <p>Вс: Выходной</p>
+              <p>Перерыв: 14:30 - 16:00</p>
+            </div>
+            <div class="info-block">
+              <h4>Телефон</h4>
+              <a href="tel:+79516872007" class="phone-link"
+                >+7 (951) 687-20-07</a
+              >
+            </div>
+          </div>
+          <div class="contacts__map">
+            <!-- Заглушка под карту, можно вставить iframe Яндекс/Google карт -->
+            <div class="map-placeholder">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A19ddc648f0a38df0b8602ade0eecd7c65e7efb703c3379340ef435977c6f4d99&amp;source=constructor"
+                width="100%"
+                height="100%"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <p>&copy; 2026 ПРОРЫВ. Все права защищены.</p>
+        <div class="footer__socials">
+          <a href="https://vk.com/proshop1" target="_blank">VK</a>
+          <a href="https://t.me/Pro9516872007" target="_blank">Telegram</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
