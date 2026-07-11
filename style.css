@@ -773,4 +773,13 @@ html {
         background-color: var(--gold);
         color: #000000;
     }
+
+    .cards-section .card-row {
+       margin-bottom: 35px; /* Расстояние между карточками на телефоне */
+     }
+
+     /* Убираем лишний отступ у последней карточки */
+     .cards-section .card-row:last-child {
+       margin-bottom: 0;
+     }
 }
