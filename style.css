@@ -774,12 +774,21 @@ html {
         color: #000000;
     }
 
-    .cards-section .card-row {
-       margin-bottom: 35px; /* Расстояние между карточками на телефоне */
-     }
+    /* 3. Выстраиваем карточки в один столбик (картинка сверху, текст снизу) */
+    .cards-section .card-row,
+    .cards-section .card-row--reverse {
+        display: flex;
+        flex-direction: column; /* Сбрасываем реверс и выстраиваем в колонку */
+        margin-bottom: 45px;    /* Расстояние между карточками на телефоне */
+    }
 
-     /* Убираем лишний отступ у последней карточки */
-     .cards-section .card-row:last-child {
-       margin-bottom: 0;
-     }
+    /* Дополнительно: делаем небольшой отступ между картинкой и текстом внутри одной карточки */
+    .cards-section .card-row__img {
+        margin-bottom: 15px;
+    }
+
+    /* Убираем лишний отступ у самой последней карточки на странице */
+    .cards-section .card-row:last-child {
+        margin-bottom: 0;
+    }
 }
